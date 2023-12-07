@@ -5,5 +5,143 @@
 }
 
 *{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    width:  100vh;
+}
+
+.background{
+    width: 40vw;
+    height: 100vh;
+    
+}
+
+.title{
+    width: 40vw;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    background-color: black;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
     font-family: Odin;
+    font-size: 4rem;
+    opacity: 100%;
+
+
+}
+
+.info{
+    position: absolute;
+    left: calc(100vw - 60vw);
+    top: 70px;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    width: auto; 
+    
+
+}
+
+.call-to-action{
+    padding-top: 50px;
+}
+
+.form{
+    position: absolute;
+    top: 200px;
+    left: calc(100vw - 60vw);
+    padding-left: 40px;
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column ;
+    gap: 45px;
+    width: 50vw;
+    border-width: 0;
+    margin-top: 40px;
+    
+}
+
+.d1{
+    display: flex;
+    gap: 95px;
+
+}
+
+.d2{
+    display: flex;
+    gap: 95px;
+
+}
+
+.d3{
+    display: flex;
+    gap: 95px;
+
+}
+
+label{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+input{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #bec0c1;
+    text-indent: 10px;
+    font-size: 20px;
+
+}
+
+input:focus{
+    border: 2px solid #1f2021;
+    
+}
+
+.closing{
+    position: absolute;
+    left: calc(100vw - 60vw);
+    bottom: calc(100vh - 85vh);
+    padding: 40px;
+    font-family: Odin, sans-serif;
+    font-size: 1.1rem;
+}
+
+.submit{
+    padding: 10px 50px; 
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 25px;
+    background-color: #88A295;
+    color: white;
+    font-family: Odin;
+    font-size: 25px;
+    margin-top: 150px; 
+}
+
+.shadow{
+    position: absolute;
+    left: calc(100vw - 60vw);
+    bottom: calc(100vh - 68vh);
+    height: 10px;
+    width: 60vw;
+    background-image: linear-gradient(rgb(214, 214, 214), #ffffff);
 }

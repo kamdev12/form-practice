@@ -4,12 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheet.css" rel="stylesheet"></link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
 <body>
-    <img src="Form Page Background.jpg" alt="Car in the snow background picture" width="200px" >
+    <img src="Form Page Background.jpg" alt="Car in the snow background picture" class="background" >
 
-    <h1>Formy</h1>
+    <div class="title">
+        <h1>Porsche</h1>
+    </div>
+
+    <div class="info">
+        <p> This is not a real online service!
+            You know you need something like this in your life to help you realize your deepet dreams.<br>
+            Sign up now to get started!
+        </p>
+    
+        <p class="call-to-action">
+            You <strong>know</strong> you want to. 
+        </p>
+    </div>
+
+    <div class="form">
+       
+        <h2>Let's do this!</h2>
+        
+
+    <form action="" method="post">
+        <fieldset>
+            <div class="d1">
+                <div>
+                    <label for="first_name">FIRST NAME</label><br>
+                    <input id="first_name" type="text" name="First Name" placeholder="">
+                </div>
+                <div>
+                    <label for="last_name">LAST NAME</label><br>
+                    <input type="text" id="last_name" name="Last Name" placeholder="">
+                </div>
+            </div>
+            <div class="d2">
+                <div>
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" required name="Email" placeholder="">
+                </div>
+                <div>
+                    <label for="phone_number">PHONE NUMBER</label><br>
+                    <input type="tel" required name="Phone Number" placeholder="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" aria-placeholder="123-456-7890">
+                </div>
+            </div>
+            <div class="d3">
+                <div>
+                    <label for="password">PASSWORD</label><br>
+                    <input type="password" required name="Password" placeholder="">
+                </div>
+                <div>
+                    <label for="confirm_password">CONFRIM PASSWORD</label><br>
+                    <input type="password" required name="Confirmed Password" placeholder="">
+                </div>
+            </div>
+             
+        </fieldset>
+        <button type="submit" class="submit">Submit</button>
+    </form>
+        
+    </div>
+    <div class="shadow"></div>
+
+    <div class="closing">
+
+        <p>Already have an account? Log In</p>
+    </div>
+    
     
 </body>
 </html>
